@@ -54,3 +54,7 @@ wget https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/resolve/main/
 ./main -m tinyllama-1.1b-chat-v0.3.Q4_0.gguf -p "hi there"
 ```
 
+## Notes
+1. If your phone doesnt have enough RAM, running ./main would likely crash the termux and the device 
+
+2. Latest llama.cpp is running with ggul format so we would go to https://huggingface.co/TheBloke and find more models in that format that we would use.
